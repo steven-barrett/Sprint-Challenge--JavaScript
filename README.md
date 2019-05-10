@@ -29,14 +29,33 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.foreach doesn't atually return anything it just lets you manipulate each element of the array.  Whereas 
+.map actually returns a new array of the same size
 
 2. What is the difference between a function and a method?
+a method is a function associated with an object where a function has no object assoiciated with it
+METHOD: 
+let objWithMethod = {
+    name: '',
+    method: function () {
 
+    }
+}
+FUNCTION:
+function fnct(parm) {
+    
+}
 3. What is closure?
+A closure in Javascript is where an inner function has access to the outer (enclosing) functions variables
 
 4. Describe the four rules of the 'this' keyword.
+a. Global/Window scope is the window or console object that is "this" ------"GLOBAL/WINDOW"
+b. A function that's called followed by a dot the object before the dot is "this"----"IMPLICIT"
+c. When a constructor function is called the object that is returned is "this" ----"NEW"
+d. When .call() or .apply() is used "this" is explicitly defined  ------"EXPLICIT"
 
 5. Why do we need super() in an extended class?
+call the methods of the parent class, it replaces .call()
 
 ## Project Set up
 
